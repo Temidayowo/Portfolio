@@ -9,11 +9,13 @@ const Skills = () => {
       className="flex flex-col gap-10 lg:gap-20 bg-linear-to-br px-8 md:px-20 py-12 from-[#f9fafc] to-[#EFF3FF]"
       id="skill"
     >
-      <div className="flex flex-col gap-4  items-center">
+      <div className="flex flex-col gap-4 items-start lg:items-center">
         <h3 className="hidden lg:block uppercase text-[#6366f1] font-semibold text-lg">
           Expertise
         </h3>
-        <h1 className="lg:text-4xl text-2xl font-bold">Skills & Technologies</h1>
+        <h1 className="lg:text-4xl text-2xl font-bold">
+          Skills & Technologies
+        </h1>
         <p className="hidden md:block text-[#4b5563]">
           A comprehensive toolkit for building modern, scalable web
           applications.

@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex lg:justify-center items-center px-8 py-15 md:px-20 lg:py-0 z-0">
+      <div className="flex lg:justify-center items-center px-8 py-18 md:px-20 lg:py-0 z-0">
         <div className="relative">
           <img
             src="/hero-img.png"

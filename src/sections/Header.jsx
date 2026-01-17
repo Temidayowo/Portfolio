@@ -26,7 +26,7 @@ const Header = () => {
         } md:flex flex-col md:flex-row md:gap-9 md:text-base md:font-medium md:static md:bg-transparent md:px-0 md:py-0 absolute top-20 left-0 right-0 bg-white px-10 py-7`}
       >
         <ul className="w-full flex flex-col md:flex-row md:gap-9 gap-9">
-          <li>
+          <li className="md:cursor-pointer">
             <a href="#about">About</a>
           </li>
           <li>

@@ -2,7 +2,10 @@ import { Code, LayoutGrid, MonitorSmartphone } from "lucide-react";
 
 const Services = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-20 px-8 lg:px-20 bg-white">
+    <section
+      className="flex flex-col items-center justify-center py-20 px-8 lg:px-20 bg-[#efeffe]"
+      id="services"
+    >
       <div className="text-center flex flex-col gap-4 mb-12">
         <h3 className="hidden lg:block uppercase text-[#6366f1] text-base font-semibold">
           What I do
@@ -15,7 +18,7 @@ const Services = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
-        <div className="bg-[#efeffe] shadow-lg w-full py-8 px-10 rounded-xl flex gap-4">
+        <div className="bg-white shadow-lg w-full py-8 px-10 rounded-xl flex gap-4">
           <div>
             <Code className="size-6 md:size-7 text-[#6366f1]" />
           </div>
@@ -30,7 +33,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-[#efeffe] shadow-lg w-full py-8 px-10 rounded-xl flex gap-4">
+        <div className="bg-white shadow-lg w-full py-8 px-10 rounded-xl flex gap-4">
           <div>
             <LayoutGrid className="size-6 md:size-7 text-[#6366f1]" />
           </div>
@@ -45,7 +48,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="bg-[#efeffe] shadow-lg w-full py-8 px-10 rounded-xl flex gap-4">
+        <div className="bg-white shadow-lg w-full py-8 px-10 rounded-xl flex gap-4">
           <div>
             <MonitorSmartphone className="size-6 md:size-7 text-[#6366f1]" />
           </div>

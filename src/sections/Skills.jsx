@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section
       className="flex flex-col gap-10 lg:gap-20 bg-linear-to-br px-8 md:px-20 py-12 from-[#f9fafc] to-[#EFF3FF]"
-      id="skills"
+      id="skill"
     >
       <div className="flex flex-col gap-4  items-center">
         <h3 className="hidden lg:block uppercase text-[#6366f1] font-semibold text-lg">

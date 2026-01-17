@@ -10,7 +10,7 @@ import { IoIosGlobe } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <section className="py-20 px-8 lg:px-20 bg-[#f1f4fe] flex justify-center items-center">
+    <section className="py-20 px-8 lg:px-20 bg-[#f1f4fe] flex justify-center items-center" id="contact">
       <div className="grid grid-cols-1 lg:grid-cols-2 border-[0.5px] border-[#534fdd] rounded-xl overflow-hidden shadow-lg">
         <div className="flex flex-col justify-center bg-[#534fdd] px-8 md:px-14 py-16 lg:py-o md:pr-28">
           <h3 className="text-[#c6d1fd] font-semibold text-base uppercase text-center lg:text-left hidden lg:block">

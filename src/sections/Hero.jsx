@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse lg:grid grid-cols-2 bg-linear-to-br from-[#f9fafc] to-[#EFF3FF] lg:h-screen">
+    <section className="flex flex-col-reverse lg:grid grid-cols-2 bg-linear-to-br from-[#f9fafc] to-[#EFF3FF] lg:h-screen" id="hero">
       <div className="w-full flex flex-col justify-center px-8 md:px-20 lg:py-24 py-16">
         <h3 className="text-[#3F20FB]/80 md:text-2xl font-semibold">
           Front-End Developer

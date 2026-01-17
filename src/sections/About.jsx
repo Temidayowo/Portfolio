@@ -4,7 +4,7 @@ import { IoRocket } from "react-icons/io5";
 
 const About = () => {
   return (
-    <section className="flex lg:grid grid-cols-2 bg-white py-20 lg:py-36 px-8 lg:px-20">
+    <section className="flex lg:grid grid-cols-2 bg-white py-20 lg:py-36 px-8 lg:px-20" id="about">
       <div className="hidden lg:flex items-center mb-12 lg:mb-0">
         <div className="relative z-0">
           <img

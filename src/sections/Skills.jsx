@@ -13,7 +13,7 @@ const Skills = () => {
         <h3 className="hidden lg:block uppercase text-[#6366f1] font-semibold text-lg">
           Expertise
         </h3>
-        <h1 className="text-4xl  font-bold">Skills & Technologies</h1>
+        <h1 className="lg:text-4xl text-2xl font-bold">Skills & Technologies</h1>
         <p className="hidden md:block text-[#4b5563]">
           A comprehensive toolkit for building modern, scalable web
           applications.

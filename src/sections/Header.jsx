@@ -10,9 +10,20 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  const navLinks = document.querySelectorAll("a");
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      setIsOpen(false);
+    });
+  });
+
   return (
     <header className="font-inter flex flex-row justify-between w-full items-center px-8 md:px-20 py-7 z-50 sticky top-0 left-0 bg-white border-b border-gray-200 shadow-sm">
-      <h1 className="font-bold text-3xl">Temidayo</h1>
+      <h1 className="font-bold text-3xl cursor-pointer">
+        {" "}
+        <a href="https://temidayowo.vercel.app/">Temidayo.</a>
+      </h1>
       <button
         onClick={toggleMenu}
         className="md:hidden ml-auto cursor-pointer"
@@ -31,7 +42,8 @@ const Header = () => {
           </li>
           <li>
             <a href="#skill">Skills</a>
-          </li><li>
+          </li>
+          <li>
             <a href="#experience">Experience</a>
           </li>
           <li>

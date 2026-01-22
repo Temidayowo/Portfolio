@@ -8,7 +8,10 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse lg:grid grid-cols-2 bg-linear-to-br from-[#f9fafc] to-[#EFF3FF] lg:h-screen" id="hero">
+    <section
+      className="flex flex-col-reverse lg:grid grid-cols-2 bg-linear-to-br from-[#f9fafc] to-[#EFF3FF] lg:h-screen"
+      id="hero"
+    >
       <div className="w-full flex flex-col justify-center px-8 md:px-20 lg:py-24 py-16">
         <h3 className="text-[#3F20FB]/80 md:text-2xl font-semibold">
           Front-End Developer
@@ -24,14 +27,23 @@ const Hero = () => {
             that drive business results.
           </p>
           <div>
-            <button className="bg-[#3F20FB]/80 text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#3F20FB] transition duration-300 flex gap-3.5 cursor-pointer">
-              Let's Talk <ArrowRight />
+            <button className="bg-[#3F20FB]/80 text-white text-sm md:text-base px-4 md:px-8 py-2 md:py-4 rounded-lg font-semibold hover:bg-[#3F20FB] transition duration-300 cursor-pointer">
+              {" "}
+              <a href="#contact" className="flex items-center gap-3.5">
+                Let's Talk <ArrowRight className="size-5 md:size-7" />
+              </a>
             </button>
           </div>
           <div className=" flex flex-row gap-8">
-            <FaGithub className="size-6 cursor-pointer text-[#303034]" />
-            <FaLinkedin className="size-6 cursor-pointer text-[#303034]" />
-            <FaEnvelope className="size-6 cursor-pointer text-[#303034]" />
+            <a href="https://github.com/Temidayowo">
+              <FaGithub className="size-5 md:size-6 cursor-pointer text-[#303034]" />
+            </a>
+            <a href="https://github.com/owoigbetemidayo">
+              <FaLinkedin className="size-5 md:size-6 cursor-pointer text-[#303034]" />
+            </a>
+            <a href="mailto:owoigbetemidayo@gmail.com">
+              <FaEnvelope className="size-5 md:size-6 cursor-pointer text-[#303034]" />
+            </a>
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@ const Hero = () => {
             <a href="https://github.com/Temidayowo">
               <FaGithub className="size-5 md:size-6 cursor-pointer text-[#303034]" />
             </a>
-            <a href="https://github.com/owoigbetemidayo">
+            <a href="https://www.linkedin.com/in/isaiah-owoigbe-b8084723a/">
               <FaLinkedin className="size-5 md:size-6 cursor-pointer text-[#303034]" />
             </a>
             <a href="mailto:owoigbetemidayo@gmail.com">
